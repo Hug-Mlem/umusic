@@ -1,0 +1,12 @@
+.MuiButton-containedPrimary{
+    /* color: white !important; */
+    background-color: #F3903F !important;
+}
+.MuiButton-textSecondary {
+    color: #F3903F !important;
+}
+
+.MuiButton-textPrimary{
+    background-color: #FAEBE0 !important;
+    color: #F3903F !important;
+}
