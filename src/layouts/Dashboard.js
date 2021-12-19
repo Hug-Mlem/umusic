@@ -33,9 +33,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
-  body {
-    background: ${props => props.theme.body.background};
-  }
 
   .MuiCardHeader-action .MuiIconButton-root {
     padding: 4px;
