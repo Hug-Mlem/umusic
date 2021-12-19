@@ -191,7 +191,7 @@ class SignInForm extends Component {
                     Bạn chưa có tài khoản?
                     <Button
                         component={Link}
-                        to="/sign-up"
+                        to="/umusic/sign-up"
                         color="secondary"
                     >
                         Đăng ký
@@ -199,7 +199,7 @@ class SignInForm extends Component {
                 </div>
                 <Button
                     component={Link}
-                    to="/reset-password"
+                    to="/umusic/reset-password"
                     fullWidth
                     color="primary"
                 >

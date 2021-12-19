@@ -28,8 +28,8 @@ const Likes = async(() => import("../pages/modules/Likes"))
 
 const discoveryRoutes = {
     id: "Khám phá",
-    path: "/",
-    icon: "/static/img/icon/user.svg",
+    path: "/umusic/",
+    icon: require("../assets/icon/user.png"),
     name: "Discovery",
     component: Discovery,
     containsHome: true
@@ -58,8 +58,8 @@ const discoveryRoutes = {
 
 const personalRoutes = {
     id: "Cá nhân",
-    path: "/personal",
-    icon: "/static/img/icon/disc.svg",
+    path: "/umusic/personal",
+    icon: require("../assets/icon/disc.png"),
     name: "Personal",
     component: Personal
 };
@@ -67,8 +67,8 @@ const personalRoutes = {
 
 const libraryRoutes = {
     id: "Thư Viện",
-    path: "/library",
-    icon: "/static/img/icon/library.svg",
+    path: "/umusic/library",
+    icon: require("../assets/icon/library.png"),
     name: "Library",
     component: Library
 };
@@ -77,8 +77,8 @@ const libraryRoutes = {
 
 const newRoutes = {
     id: "Nhạc mới",
-    path: "/new",
-    icon: "/static/img/icon/new.svg",
+    path: "/umusic/new",
+    icon: require("../assets/icon/new.png"),
     name: "New",
     component: New
 };
@@ -86,8 +86,8 @@ const newRoutes = {
 
 const ratingsRoutes = {
     id: "Xếp hạng",
-    path: "/ratings",
-    icon: "/static/img/icon/rate.svg",
+    path: "/umusic/ratings",
+    icon: require("../assets/icon/rate.png"),
     name: "Ratings",
     component: Ratings
 };
@@ -96,8 +96,8 @@ const ratingsRoutes = {
 
 const typesRoutes = {
     id: "Thể loại",
-    path: "/types",
-    icon: "/static/img/icon/types.svg",
+    path: "/umusic/types",
+    icon: require("../assets/icon/types.png"),
     name: "Types",
     component: Types
 };
@@ -105,15 +105,15 @@ const typesRoutes = {
 
 const createPlayListRoutes = {
     id: "Tạo playlist",
-    path: "/create",
-    icon: "/static/img/icon/plus.svg",
+    path: "/umusic/create",
+    icon: require("../assets/icon/plus.png"),
     name: "CreatePlayList",
 };
 
 const likesRoutes = {
     id: "Yêu thích",
-    path: "/likes",
-    icon: "/static/img/icon/likes.svg",
+    path: "/umusic/likes",
+    icon: require("../assets/icon/likes.png"),
     name: "Likes",
     component: Likes
 };
@@ -121,7 +121,7 @@ const likesRoutes = {
 
 const signInRoutes = {
     id: "Đăng nhập",
-    path: "/sign-in",
+    path: "/umusic/sign-in",
     name: "Sign In",
     component: SignIn
 };
@@ -129,7 +129,7 @@ const signInRoutes = {
 
 const signUpRoutes = {
     id: "Đăng nhập",
-    path: "/sign-up",
+    path: "/umusic/sign-up",
     name: "Sign Up",
     component: SignUp
 };
@@ -137,42 +137,44 @@ const signUpRoutes = {
 
 const resetPassRoutes = {
     id: "Đăng nhập",
-    path: "/reset-password",
+    path: "/umusic/reset-password",
     name: "Reset Password",
     component: ResetPassword
 };
-const authRoutes = {
-    id: "Auth",
-    path: "/auth",
-    icon: <Users />,
-    children: [
-        {
-            path: "/auth/sign-in",
-            name: "Sign In",
-            component: SignIn
-        },
-        {
-            path: "/auth/sign-up",
-            name: "Sign Up",
-            component: SignUp
-        },
-        {
-            path: "/auth/reset-password",
-            name: "Reset Password",
-            component: ResetPassword
-        },
-        {
-            path: "/auth/404",
-            name: "404 Page",
-            component: Page404
-        },
-        {
-            path: "/auth/500",
-            name: "500 Page",
-            component: Page500
-        }
-    ]
-};
+
+
+// const authRoutes = {
+//     id: "Auth",
+//     path: "/auth",
+//     icon: <Users />,
+//     children: [
+//         {
+//             path: "/auth/sign-in",
+//             name: "Sign In",
+//             component: SignIn
+//         },
+//         {
+//             path: "/auth/sign-up",
+//             name: "Sign Up",
+//             component: SignUp
+//         },
+//         {
+//             path: "/auth/reset-password",
+//             name: "Reset Password",
+//             component: ResetPassword
+//         },
+//         {
+//             path: "/auth/404",
+//             name: "404 Page",
+//             component: Page404
+//         },
+//         {
+//             path: "/auth/500",
+//             name: "500 Page",
+//             component: Page500
+//         }
+//     ]
+// };
 
 export const dashboard = [
     // dashboardsRoutes,

@@ -129,9 +129,9 @@ class Dashboard extends React.Component {
     };
     return (
       <>
-        {((this.props.children.props.location.pathname == "/sign-in") ||
-          (this.props.children.props.location.pathname == "/sign-up") ||
-          (this.props.children.props.location.pathname == "/reset-password"))
+        {((this.props.children.props.location.pathname == "/umusic/sign-in") ||
+          (this.props.children.props.location.pathname == "/umusic/sign-up") ||
+          (this.props.children.props.location.pathname == "/umusic/reset-password"))
           ?
           <Root>
             <AppContent>

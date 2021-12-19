@@ -56,7 +56,8 @@ function UsersTable({ history, firebase, location }) {
     const [offset, setOffset] = useState("")
     const users = localStorage.getItem('users')
     const userArr = JSON.parse(users)
-    const token = userArr.token
+    const token = 'c69fb47d-5bbf-11ec-8028-56000335e4d7'
+
     const [loading, setLoading] = useState(true)
     const [username, setsearch] = useState(params.username)
     const [modal, setModal] = useState("modal hide")
@@ -328,7 +329,7 @@ function FirstList({ history, firebase, location }) {
     const [offset, setOffset] = useState("")
     const users = localStorage.getItem('users')
     const userArr = JSON.parse(users)
-    const token = userArr.token
+    const token = 'c69fb47d-5bbf-11ec-8028-56000335e4d7'
     const [loading, setLoading] = useState(true)
     const [username, setsearch] = useState(params.username)
     const [modal, setModal] = useState("modal hide")

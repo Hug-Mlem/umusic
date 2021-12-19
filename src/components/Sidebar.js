@@ -342,7 +342,7 @@ class Sidebar extends React.Component {
                 to=''
                 onClick={() => this.redirectLinkInstall('https://www.google.cm')}
                 component={NavLink}
-                icon={'/static/img/icon/download.svg'}
+                icon={require("../assets/icon/download.png")}
                 exact
               />
 

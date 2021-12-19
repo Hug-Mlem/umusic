@@ -339,7 +339,7 @@ class Header extends Component {
                                 <Button
                                     style={{ borderRadius: '50rem', color: 'white', marginRight: '10px' }}
                                     component={Link}
-                                    to="/sign-up"
+                                    to="/umusic/sign-up"
                                 >
                                     Đăng ký
                                 </Button>
@@ -347,7 +347,7 @@ class Header extends Component {
                                     variant="contained"
                                     style={{ borderRadius: '50rem', backgroundColor: 'white', color: 'black', marginRight: '10px' }}
                                     component={Link}
-                                    to="/sign-in"
+                                    to="/umusic/sign-in"
                                 >
                                     Đăng Nhập
                                 </Button>
