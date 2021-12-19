@@ -9,8 +9,8 @@
     "static/js/2.0268d3de.chunk.js": "/umusic/static/js/2.0268d3de.chunk.js",
     "static/js/2.0268d3de.chunk.js.map": "/umusic/static/js/2.0268d3de.chunk.js.map",
     "main.css": "/umusic/static/css/main.d4fbebc9.chunk.css",
-    "main.js": "/umusic/static/js/main.7382be0c.chunk.js",
-    "main.js.map": "/umusic/static/js/main.7382be0c.chunk.js.map",
+    "main.js": "/umusic/static/js/main.0661f51a.chunk.js",
+    "main.js.map": "/umusic/static/js/main.0661f51a.chunk.js.map",
     "runtime-main.js": "/umusic/static/js/runtime-main.c7e61986.js",
     "runtime-main.js.map": "/umusic/static/js/runtime-main.c7e61986.js.map",
     "static/js/5.627736d2.chunk.js": "/umusic/static/js/5.627736d2.chunk.js",
@@ -52,7 +52,7 @@
     "static/js/18.fbe1035b.chunk.js": "/umusic/static/js/18.fbe1035b.chunk.js",
     "static/js/18.fbe1035b.chunk.js.map": "/umusic/static/js/18.fbe1035b.chunk.js.map",
     "index.html": "/umusic/index.html",
-    "precache-manifest.f93e5267381d80de0f48f5eb4414e36b.js": "/umusic/precache-manifest.f93e5267381d80de0f48f5eb4414e36b.js",
+    "precache-manifest.f3f28c7a8e9b718767de89566bd92082.js": "/umusic/precache-manifest.f3f28c7a8e9b718767de89566bd92082.js",
     "service-worker.js": "/umusic/service-worker.js",
     "static/css/1.d2744ea4.chunk.css.map": "/umusic/static/css/1.d2744ea4.chunk.css.map",
     "static/css/10.d196d0ab.chunk.css.map": "/umusic/static/css/10.d196d0ab.chunk.css.map",
@@ -77,6 +77,6 @@
     "static/js/runtime-main.c7e61986.js",
     "static/js/5.627736d2.chunk.js",
     "static/css/main.d4fbebc9.chunk.css",
-    "static/js/main.7382be0c.chunk.js"
+    "static/js/main.0661f51a.chunk.js"
   ]
 }
