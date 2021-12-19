@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73a57345cf064dcae948013814048000",
+    "revision": "fd5558e3dea137b35a2a6ad14c805fe0",
     "url": "/umusic/index.html"
   },
   {
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/umusic/static/css/9.d196d0ab.chunk.css"
   },
   {
-    "revision": "a2dc3292901b1196b0ab",
+    "revision": "66753bf9fb9a9c35fc2a",
     "url": "/umusic/static/css/main.d4fbebc9.chunk.css"
   },
   {
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/umusic/static/js/9.591e2551.chunk.js"
   },
   {
-    "revision": "a2dc3292901b1196b0ab",
-    "url": "/umusic/static/js/main.0661f51a.chunk.js"
+    "revision": "66753bf9fb9a9c35fc2a",
+    "url": "/umusic/static/js/main.20a925c9.chunk.js"
   },
   {
     "revision": "41d9f45bed81f317c77d",
