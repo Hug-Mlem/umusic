@@ -28,7 +28,7 @@ const Likes = async(() => import("../pages/modules/Likes"))
 
 const discoveryRoutes = {
     id: "Khám phá",
-    path: "/",
+    path: "/umusic/",
     icon: "/static/img/icon/user.svg",
     name: "Discovery",
     component: Discovery,
@@ -58,7 +58,7 @@ const discoveryRoutes = {
 
 const personalRoutes = {
     id: "Cá nhân",
-    path: "/personal",
+    path: "/umusic/personal",
     icon: "/static/img/icon/disc.svg",
     name: "Personal",
     component: Personal
@@ -67,7 +67,7 @@ const personalRoutes = {
 
 const libraryRoutes = {
     id: "Thư Viện",
-    path: "/library",
+    path: "/umusic/library",
     icon: "/static/img/icon/library.svg",
     name: "Library",
     component: Library
@@ -77,7 +77,7 @@ const libraryRoutes = {
 
 const newRoutes = {
     id: "Nhạc mới",
-    path: "/new",
+    path: "/umusic/new",
     icon: "/static/img/icon/new.svg",
     name: "New",
     component: New
@@ -86,7 +86,7 @@ const newRoutes = {
 
 const ratingsRoutes = {
     id: "Xếp hạng",
-    path: "/ratings",
+    path: "/umusic/ratings",
     icon: "/static/img/icon/rate.svg",
     name: "Ratings",
     component: Ratings
@@ -96,7 +96,7 @@ const ratingsRoutes = {
 
 const typesRoutes = {
     id: "Thể loại",
-    path: "/types",
+    path: "/umusic/types",
     icon: "/static/img/icon/types.svg",
     name: "Types",
     component: Types
@@ -105,14 +105,14 @@ const typesRoutes = {
 
 const createPlayListRoutes = {
     id: "Tạo playlist",
-    path: "/create",
+    path: "/umusic/create",
     icon: "/static/img/icon/plus.svg",
     name: "CreatePlayList",
 };
 
 const likesRoutes = {
     id: "Yêu thích",
-    path: "/likes",
+    path: "/umusic/likes",
     icon: "/static/img/icon/likes.svg",
     name: "Likes",
     component: Likes
@@ -121,7 +121,7 @@ const likesRoutes = {
 
 const signInRoutes = {
     id: "Đăng nhập",
-    path: "/sign-in",
+    path: "/umusic/sign-in",
     name: "Sign In",
     component: SignIn
 };
@@ -129,7 +129,7 @@ const signInRoutes = {
 
 const signUpRoutes = {
     id: "Đăng nhập",
-    path: "/sign-up",
+    path: "/umusic/sign-up",
     name: "Sign Up",
     component: SignUp
 };
@@ -137,37 +137,37 @@ const signUpRoutes = {
 
 const resetPassRoutes = {
     id: "Đăng nhập",
-    path: "/reset-password",
+    path: "/umusic/reset-password",
     name: "Reset Password",
     component: ResetPassword
 };
 const authRoutes = {
     id: "Auth",
-    path: "/auth",
+    path: "/umusic/auth",
     icon: <Users />,
     children: [
         {
-            path: "/auth/sign-in",
+            path: "/umusic/auth/sign-in",
             name: "Sign In",
             component: SignIn
         },
         {
-            path: "/auth/sign-up",
+            path: "/umusic/auth/sign-up",
             name: "Sign Up",
             component: SignUp
         },
         {
-            path: "/auth/reset-password",
+            path: "/umusic/auth/reset-password",
             name: "Reset Password",
             component: ResetPassword
         },
         {
-            path: "/auth/404",
+            path: "/umusic/auth/404",
             name: "404 Page",
             component: Page404
         },
         {
-            path: "/auth/500",
+            path: "/umusic/auth/500",
             name: "500 Page",
             component: Page500
         }
